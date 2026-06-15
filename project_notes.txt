@@ -1,0 +1,9 @@
+* Built a modular bar_chart.py alongside the map
+* Fixed the type annotation Chart → LayerChart
+* Corrected the map centre so western Europe wasn't cut off
+* Worked around Altair's broken .interactive() on geo projections
+* Bypassed the entire Vega-Lite limitation by injecting JS directly into the HTML 
+via inject_controls.py
+* Tracked down the canvas not found bug to vega-embed 7 using SVG rendering
+
+       
